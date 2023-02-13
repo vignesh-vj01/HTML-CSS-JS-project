@@ -1,0 +1,296 @@
+body {
+  color: black;
+  background: #eaeaea;
+  font-family: "Ruda", sans-serif;
+  font-size: 13px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1002;
+  height: 12rem;
+}
+.black-bg {
+  background: #22242a;
+  border-bottom: 1px solid #393d46;
+}
+a.logo {
+  font-size: 24px;
+  color: #f2f2f2;
+  float: left;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+a.logo {
+  font-weight: 900;
+}
+a.logo span {
+  color: #4ecdc4;
+}
+
+.wrapper {
+  display: inline-block;
+
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 0px;
+  width: 100%;
+}
+.content-panel {
+  background: #ffffff;
+  box-shadow: 0px 3px 2px #aab2bd;
+  padding-top: 16rem;
+  padding-bottom: 5px;
+  margin-left: 180px;
+  height: auto;
+}
+.content-panel1 {
+  background: #ffffff;
+  box-shadow: 0px 3px 2px #aab2bd;
+  padding-top: 16rem;
+  padding-bottom: 5px;
+  margin-left: 180px;
+  height: auto;
+}
+.site-footer {
+  background: #4ecdc4;
+  color: #fff;
+
+  padding: 15px 0;
+}
+.credits,
+.credits a {
+  color: #fff;
+}
+#slider img {
+  border-radius: 20px;
+}
+.form-login {
+  max-width: 420px;
+  margin: 100px auto 0;
+  background: white;
+  border-radius: 19px;
+}
+.form-login h2.form-login-heading {
+  margin: 0;
+  padding: 40px 20px;
+  text-align: center;
+  background: #4ecdc4;
+  border-radius: 15px 15px 2px 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 20px;
+  color: lightyellow;
+}
+.login-wrap {
+  padding: 40px;
+}
+.btn-theme {
+  color: #fff;
+  background-color: #4ecdc4;
+  border-color: #48bcb4;
+}
+.content {
+  background: #ffffff;
+  box-shadow: 0px 3px 2px #aab2bd;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  height: auto;
+  margin-left: 180px;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.admin {
+  padding: 4rem 5rem;
+  background-color: white;
+  box-shadow: 0px 3px 1px lightslategray;
+  margin-left: 1rem;
+  margin-right: 12px;
+}
+.academic {
+  padding: 4rem 5rem;
+  background-color: white;
+  box-shadow: 0px 3px 1px lightslategray;
+  margin-left: 5rem;
+  margin-right: 12px;
+}
+.student {
+  padding: 4rem 5rem;
+  background-color: white;
+  box-shadow: 0px 3px 1px lightslategray;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.stf {
+  margin-bottom: 6rem;
+  padding: 2rem 4rem;
+  text-align: center;
+  height: 15rem;
+}
+.profile-pic img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 10px solid #f1f2f7;
+  margin-top: 20px;
+}
+.profile-text h6 {
+  margin-top: -10px;
+  margin-top: 20px;
+  color: #d3d3d3;
+  text-align: center;
+}
+.center {
+  text-align: center;
+  padding: 0 auto;
+}
+.profile-text h3 {
+  font-weight: 700;
+  color: #48cfad;
+}
+.profile-text h4 {
+  color: #48bcb4;
+}
+.profile-text p {
+  margin-left: 10px;
+}
+
+.right-devider {
+  border-right: 1px solid #d3d3d3;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 1rem;
+}
+h1 {
+  font-size: 3.4rem;
+  color: #535;
+
+  margin-bottom: 2px;
+}
+h2 {
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.container1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 40rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+.container1 > * {
+  width: 100%;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+
+.choice-container {
+  display: flex;
+  margin-top: 12px;
+  height: 5rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  border: 0.01rem solid rgb(86, 165, 235, 0.5);
+  background-color: white;
+}
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 0 rgba(54, 80, 102, 0.5);
+  transform: translateY(-1rem);
+}
+.choice-prefix {
+  padding: 10px 20px;
+  background-color: blue;
+  color: whitesmoke;
+  height: 2rem;
+  margin-bottom: 10rem;
+}
+.choice-text {
+  text-align: center;
+}
+.correct {
+  background-color: green;
+}
+.incorrect {
+  background-color: red;
+}
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+.hud-main-text {
+  text-align: center;
+  width: 100%;
+}
+
+.btn1 {
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 10rem;
+  text-align: center;
+  border: 2px solid orchid;
+
+  background-color: white;
+  margin-top: 1rem;
+}
+.user {
+  padding-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  margin-top: 1rem;
+  width: 20rem;
+  padding: 1rem;
+  height: 7px;
+  font-size: 1rem;
+  box-shadow: 0 0.1rem 1.4rem rgba(86, 165, 235, 0.5);
+}
+#finalScore {
+  padding-top: 10rem;
+}
+
+#highScoresList {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+.high-score {
+  font-size: 1.8rem;
+  margin-bottom: 0.1rem;
+  font-weight: 3rem;
+}
+.high-score:hover {
+  transform: scale(2.025);
+}
